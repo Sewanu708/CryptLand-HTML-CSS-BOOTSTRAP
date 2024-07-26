@@ -192,3 +192,74 @@ margin-left: 0.2rem;
     font-weight: 
     700;
 }
+
+.overall-cont{
+    width: 100%;
+    height: auto;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.feat-head{
+    width: 33%;
+    height: auto;
+    margin-left: 33%;
+    margin-bottom: 5rem;
+}
+
+.feat-head h2{
+    text-align: center;
+}
+
+.sides{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 0 0 4rem;
+}
+
+.right-image{
+    width: 40%;
+    height: auto;
+    background-image: url("./assets/Group\ 299\ \(1\).png");
+}
+
+.right-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 40%;
+}
+
+.left-head{
+    width: fit-content;
+    height: auto;
+}
+
+.left head h2{
+    text-align: start;
+}
+
+.explore-more{
+    width: fit-content;
+    height: auto;
+}
+
+.explore-more button{
+    background-color: #A3DC2F;
+    font-weight: 600;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+}
+
