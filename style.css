@@ -828,7 +828,6 @@ margin-left: 0.2rem;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-
 }
 
 .plat-head,.comp-head,.re-head,.sol-head{
@@ -1218,14 +1217,14 @@ margin-left: 0.2rem;
     .hero-form-2{
         display: block;
         background-color: white;
-        width: 90%;
+        width: 100%;
         height: 50px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         border-radius: 2rem;
-        margin-bottom: 1rem;
+        padding: 1rem 0.7rem ;
     }
 
     .hero-form-2 input{
@@ -1234,19 +1233,19 @@ margin-left: 0.2rem;
         display: block;
         border: none;
         outline: none;
-        margin-left: 0;
+     
     }
 
     .hero-form-2 button{  
         width: fit-content;
         background-color: #A3DC2F;
         font-weight: 600;
-        font-size: 11px;
+        font-size: 12px;
         border: none;
         border-radius: 5rem;
         height:auto;
-        padding:0.7rem 1.2rem 0.7rem 1.2rem;
-        margin-right: 0rem;
+        padding:0.7rem 1.5rem 0.7rem 1.5rem;
+
     }
 
     .footer-text h1{
